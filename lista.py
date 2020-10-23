@@ -5,4 +5,4 @@ lista_zakupow = {
 for key in lista_zakupow:
     lst = [x.capitalize() for x in lista_zakupow[key]]
     print('Idę do {} kupię tam {}'.format(key.capitalize(), lst))
-print('Dzisiaj kupuję {} prodkuktów'.format(sum(len(lista_zakupow[key]) for key in lista_zakupow)))
+print('Kupuję {} prodkuktów'.format(sum(len(lista_zakupow[key]) for key in lista_zakupow)))
